@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+body{
+    background-image: url(/assets/img/Diseño\ sin\ título\ \(1\)\ \(1\).png);
+    background-size: cover;
+    
+
+}
+.nav-nombre {
+    color: white;
+    font-family: Concert One;
+    font-size: 35px;
+}
+
+.container{
+    margin-top: 30px;
+}
+
+.bienvenida{
+    color: white;
+    font-family: Concert One;
+    text-align: center;
+}
+
+.gato{
+    height: 400px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bottons {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    flex-direction: column; /* Apilar elementos verticalmente */
+    text-align: center; /* Alinear el texto en el centro horizontal */
+}
+
+.pedidos,
+.reservacion,
+.libros {
+    width: 300px;
+    height: 100px;
+    background-color: rgb(112, 87, 60);
+    color: white;
+    font-family: Concert One;
+    text-align: center;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    border-radius: 15px;
+}
