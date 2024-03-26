@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+body{
+    background-color:white;
+}
+
+.nav-nombre {
+    color: white;
+    font-family: Concert One;
+    font-size: 30px;
+}
+
+.nav-link{
+    color: white;
+    font-family: Concert One;
+    font-size: 20px;
+}
+
+.btn{
+    background-color: #b88c58;
+}
+
+.carousel {
+   width: 30vh;
+}
+
+.botones-genero{
+    color: white;
+    padding-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 50px;
+}
+
+.overflow-prueba {
+    overflow: visible;
+}
+
+.btn-agregar {
+    text-decoration:none;
+}

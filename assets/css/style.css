@@ -9,7 +9,8 @@ body{
 .nav-nombre {
     color: white;
     font-family: Concert One;
-    font-size: 35px;
+    font-size: 30px;
+    
 }
 
 .container{
@@ -48,9 +49,23 @@ body{
     color: white;
     font-family: Concert One;
     text-align: center;
+    font-size: 30px;
     margin-bottom: 40px;
     display: flex;
     justify-content: center; /* Centrar horizontalmente */
     align-items: center; /* Centrar verticalmente */
     border-radius: 15px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.pedidos:hover,
+.reservacion:hover,
+.libros:hover {
+    background-color: rgb(92, 67, 40); /* Cambia el color de fondo al pasar el cursor */
+    color: black; /* Cambia el color del texto al pasar el cursor */
+}
+
+a{
+    color: white;
+    text-decoration: none;
 }
