@@ -70,6 +70,7 @@
     grid-template-columns: 1fr 1fr;
     gap: 10px;    
     
+    
 }
 
 .card {
@@ -249,8 +250,3 @@ h6 {
     font-family: Concert One;
   }
 
-
-  .image-text-container {
-    display: flex;
-    justify-content: flex-start;
-}
