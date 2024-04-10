@@ -1,16 +1,8 @@
-# Cafetería Literaria "Nombre del Proyecto"
+# Cafetería Literaria "NEKO COFFE"
 
-![Cafetería Literaria](ruta/a/la/imagen.jpg)
+![Cafetería Literaria](assets/img/gatito-removebg-preview%20(4).png)
 
-Bienvenido/a a la Cafetería Literaria "Nombre del Proyecto". Esta es una página web dedicada a combinar el placer de disfrutar un buen café con el amor por la lectura.
-
-## Borradores de la Página Web
-
-A continuación, se muestran algunas imágenes de los borradores de nuestra página web:
-
-![Borrador 1](ruta/borrador1.jpg)
-![Borrador 2](ruta/borrador2.jpg)
-![Borrador 3](ruta/borrador3.jpg)
+Bienvenido/a a "NEKO COFFE". Esta es una página web dedicada a combinar el placer de disfrutar un buen café con el amor por la lectura y los gatitos.
 
 ## Instalación
 
@@ -21,21 +13,36 @@ A continuación, se muestran algunas imágenes de los borradores de nuestra pág
 
 En nuestra página web, puedes:
 
-- Explorar nuestro menú de café y delicias literarias.
-- Descubrir próximos eventos, como clubes de lectura y presentaciones de autores.
-- Leer reseñas de libros recomendados por nuestro equipo.
+- Explorar nuestro menú de café y delicias
 - Contactarnos para reservar una mesa o realizar un pedido especial.
+- Ver los libros disponibles para alquilar o comprar para acompañar tu rico café
 
 ## Contribuir
 
 ¡Agradecemos tu interés en contribuir al proyecto! Si tienes sugerencias de mejoras, ideas para nuevos eventos o deseas reportar algún problema, por favor abre un issue o envía una pull request.
 
+## Imagenes
+
+A continuación, se muestran algunas imágenes de los borradores de nuestra página web:
+
+![Borrador 1](assets/img/1.png)
+![Borrador 2](assets/img/2.png)
+![Borrador 3](assets/img/3.png)
+![Borrador 4](assets/img/4.png)
+
+Este es nuestro borrador actual y el cual nos guiamos para realizar el diseño de la pagina.
+
+![Borrador 1](assets/img/1%20neko.png)
+![Borrador 2](assets/img/2%20neko.png)
+![Borrador 3](assets/img/3%20neko.png)
+![Borrador 4](assets/img/4%20neko.png)
+
 ## Créditos
 
-Este proyecto fue creado por [Tu Nombre] y está inspirado en la pasión por el café y la literatura.
+Este proyecto fue creado por Selena Cumana, Shekina Navarro, Mashely Salome Y Johana Perez. Está inspirado en la pasión por el café y la literatura.
 
-## Licencia
+## Contactanos
 
-Este proyecto está bajo la Licencia [Especificar la Licencia].
+*Selena:* selenamagdane@gmail.com
 
-¡Gracias por visitar la Cafetería Literaria "Nombre del Proyecto"! Disfruta de tu estadía virtual y no dudes en contactarnos si tienes alguna pregunta o comentario.
+__¡Gracias por visitar la Cafetería Literaria "NEKO COFFE"! Disfruta de tu estadía virtual y no dudes en contactarnos si tienes alguna pregunta o comentario.__
