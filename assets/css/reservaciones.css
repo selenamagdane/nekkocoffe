@@ -3,16 +3,8 @@
 .navbar {
     font-family: Concert One;
     color: white;
-    font-size: 20px;
+    height: 65px;
 }
-
-.nav-nombre {
-    color: white;
-    font-family: Concert One;
-    font-size: 30px;
-    
-}
-
 
 .navbar-brand {
     color: white;
@@ -50,9 +42,32 @@
     border-radius: 20px;
 }
 
-.img {
-    height: 200px;
-    margin: 1px;
+.img1 {
+    width: 300px;
+    height: 270px;
+    margin: 10px;
+    border-color: black;
+}
+
+.img2 {
+    width: 220px;
+    height: 270px;
+    margin: 10px;
+    border-color: black;
+}
+
+.img3 {
+    width: 220px;
+    height: 270px;
+    margin: 10px;
+    border-color: black;
+}
+
+.img4 {
+    width: 300px;
+    height: 270px;
+    margin: 10px;
+    border-color: black;
 }
 
 .container1 {
@@ -70,16 +85,15 @@
 .tarjeta {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 10px;    
+    gap: 10px;   
+    margin: 10px; 
+    margin-left: 86px;
 }
 
 .card {
     background-color: #70573c;
     width: 500px;
     height: 250px;
-    margin: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
     font-family: Concert One;
     padding: 20px;
     border-radius: 10px;
@@ -117,33 +131,40 @@
 .input3 {
     background-color: #af936d;
     border: #af936d;
-    width: 65px;
+    width: 45px;
     height: 45px;
     border-radius: 20px;
+    color: white;
 }
 
 .input4 {
     background-color: #af936d;
     border: #af936d;
-    width: 65px;
+    width: 117px;
     height: 45px;
     border-radius: 20px;
+    color: white;
 }
 
 .input5 {
     background-color: #af936d;
     border: #af936d;
-    width: 110px;
+    width: 75px;
     height: 45px;
     border-radius: 20px;
+    color: white;
 }
 
 .input0 {
     background-color: #af936d;
     border: #af936d;
-    width: 270px;
+    width: 70px;
     height: 45px;
     border-radius: 20px;
+}
+
+.card-body {
+    color: white;
 }
 
 h6 {
@@ -153,8 +174,15 @@ h6 {
 .submit {
     background-color: #af936d;
     height: 45px;
-    border-color: #af936d;
-    border-radius: 20px;
+    border-radius: 10px;
+    margin-top: 20PX;
+    width: 300px;
+}
+
+ /* Estilo para cambiar el color del texto del botón */
+ button[type="submit"] {
+    color: white; /* Cambia el color del texto a blanco */
+    border: none; /* Eliminar el borde */
 }
 
 .contenedor {
@@ -162,4 +190,12 @@ h6 {
     justify-content: center; /* Centrar horizontalmente */
     align-items: center; /* Centrar verticalmente */
     height: 30px; /* Ajustar la altura del contenedor */
+    color: white;
+}
+
+.inner-container {
+    border: 1px solid black;
+    padding: 3px;
+    margin-bottom: 3px;
+    width: 120px;
 }
