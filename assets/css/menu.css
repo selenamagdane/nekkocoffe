@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&family=Titillium+Web:wght@200;300;400;600;700&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+body{
+    background-image: url(/assets/img/fondo.png);
+    background-size: cover;
+}
+
 *{
     margin: 0;
     padding:0;
@@ -47,6 +53,7 @@ header{
     font-size: 16px;
     cursor: pointer;
     border-radius: 0;
+    font-family: Concert One;
   }
    
       
@@ -66,6 +73,7 @@ header h1{
     justify-content: space-between;
     /* oculto lo que queda fuera del .contenedor */
     contain: paint;
+    font-family: Concert One;
 }
 /* SECCION CONTENEDOR DE ITEMS */
 .contenedor .contenedor-items{
@@ -77,7 +85,16 @@ header h1{
     /* width: 60%; */
     width: 100%;
     transition: .3s;
+  
 }
+
+.an a {
+    font-family: Concert One;
+    position: absolute;
+  right: 0;
+  color:#e0e0e0;
+}
+
 .contenedor .contenedor-items .item{
     max-width: 200px;
     margin: auto;
@@ -115,6 +132,7 @@ header h1{
     padding: 5px 15px;
     border-radius: 5px;
     cursor: pointer;
+    font-family: Concert One;
 }
 /* seccion carrito */
 .carrito{
@@ -230,6 +248,7 @@ header h1{
     align-items: center;
     cursor: pointer;
     transition: .3s;
+    font-family: Concert One;
 }
 .carrito-total .btn-pagar:hover{
     scale: 1.05;
@@ -259,4 +278,16 @@ header h1{
   }
 
 
+  .navbar-brand{
+    font-family: Concert One;
+  }
+  .navbar-nav{
+    font-family: Concert One;
+  }
+  
+  .nav-nombre {
+    color: white;
+    font-family: Concert One;
+    font-size: 30px;
+  }
   
