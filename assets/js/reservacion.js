@@ -20,3 +20,12 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 });
+
+// Obtiene la fecha y hora actual
+var fechaHoraActual = new Date();
+
+// Obtiene la parte de la hora en formato HH:MM
+var horaActual = fechaHoraActual.getHours() + ':' + fechaHoraActual.getMinutes();
+
+// Establece la hora actual en el campo de entrada
+document.getElementById('horaActual').value = horaActual;

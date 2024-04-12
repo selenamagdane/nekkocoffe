@@ -17,21 +17,19 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
+          
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">RESERVACIONES</a>
+                <a class="nav-link" href="reservacionesregistro.html">RESERVACIÓN</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="index1.html">LISTA DE RESERVACIÓN</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">SALIR</a>
+                <a class="nav-link" href="index.html">SALIR</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
   </div>
-      <div class="container1">
+      <div class="container1 container-fluid">
         <div class="row">
           <div class="col mt-3">
             <button type="button" class="btnn btn-block">RESERVACIÓN: PUBLICA</button>
@@ -39,7 +37,7 @@
           </div>
         </div>
       </div>
-<div class="container2">
+    <div class="container2 container-fluid">
       <div class="row">
         <div class="col">
           <img src="https://i.pinimg.com/564x/08/d9/6e/08d96ede0ecd347b7b2f0f21a61246f4.jpg" class="img1">
@@ -49,7 +47,7 @@
         </div>
       </div>  
     </div>
-  <div class="container3">
+  <div class="container3 container-fluid">
     <div class="row">
       <div class="col">
         <button id="boton1" type="button" class="btn">MESA: 1</button>
@@ -62,21 +60,21 @@
       </div>
     </div>
   </div>
-<div class="tarjeta">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">DATOS DEL CLIENTE</h5>
-            <h6>Nombres: <input type="text" class="input"></h6>
-            <h6>Apellidos: <input type="text" class="input"></h6>
-            <h6>DNI: <input type="text" class="input1"> Hora: <input type="text" class="input2"></h6> 
-          </div>
-        </div>
+  <div class="tarjeta">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">DATOS DEL CLIENTE</h5>
+        <h6>Nombres: <input type="text" class="input"></h6>
+        <h6>Apellidos: <input type="text" class="input"></h6>
+        <h6>DNI: <input type="text" class="input1"> Hora: <input type="text" class="input2" id="horaActual" readonly></h6> 
+      </div>
+    </div>
     <div id="outerContainer" class="outer-container">
       <div>
-        <div class="card">
+        <form action="reservacionesregistro.html" method="GET" class="card">
           <div class="card-body">
             <h5 class="card-title">INFORMACIÓN</h5>
-            <h6>Día: <select id="mes" name="mes" class="input3">
+            <h6>Día:  <select id="día" name="día" class="input3">
               <option value="01">01</option>
               <option value="02">02</option>
               <option value="03">03</option>
@@ -108,8 +106,8 @@
               <option value="29">29</option>
               <option value="30">30</option>
               <option value="31">31</option>
-            </select>
-              Mes: <select id="mes" name="mes" class="input4">
+            </select> 
+              Mes:  <select id="mes" name="mes" class="input4">
                 <option value="enero">Enero</option>
                 <option value="febrero">Febrero</option>
                 <option value="marzo">Marzo</option>
@@ -122,21 +120,22 @@
                 <option value="octubre">Octubre</option>
                 <option value="noviembre">Noviembre</option>
                 <option value="diciembre">Diciembre</option>
-              </select> 
-              Año: <select id="mes" name="mes" class="input5">
+              </select>  
+              Año:  <select id="año" name="año" class="input5">
                 <option value="año">2024</option>
               </select></h6>
             <h6>
-              N° Personas: <input type="text" class="input0">
+              Número de Personas: <input type="text" class="input0">
             <div id="innerContainer" class="inner-container">
                 <!-- Aquí es donde aparecerá el botón -->
             </div>
             </h6>  
             <div class="contenedor">
-            <button type="submit" class="submit">HACER RESERVACIÓN</button> 
+              <!-- Campos del formulario -->
+              <button type="submit" class="submit">HACER RESERVACIÓN</button>
             </div>
           </div>
-        </div>
+        </form>
       </div>
     </div>
   </div>

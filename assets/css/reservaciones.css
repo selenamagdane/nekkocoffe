@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
 
+body{
+    background-image: url(/assets/img/fondo.png);
+    background-size: cover;
+}
+
 .navbar {
     font-family: Concert One;
     color: white;
@@ -110,6 +115,7 @@
     width: 310px;
     height: 45px;
     border-radius: 20px;
+    color: white;
 }
 
 .input1 {
@@ -118,6 +124,7 @@
     width: 180px;
     height: 45px;
     border-radius: 20px;
+    color: white;
 }
 
 .input2 {
@@ -126,6 +133,7 @@
     width: 112px;
     height: 45px;
     border-radius: 20px;
+    color: white;
 }
 
 .input3 {
@@ -161,6 +169,8 @@
     width: 70px;
     height: 45px;
     border-radius: 20px;
+    display: inline-block; /* Agrega esta línea para que el input se muestre en línea */
+    color: white;
 }
 
 .card-body {
@@ -177,6 +187,8 @@ h6 {
     border-radius: 10px;
     margin-top: 20PX;
     width: 300px;
+    position: absolute;
+    bottom: 18px;
 }
 
  /* Estilo para cambiar el color del texto del botón */
@@ -197,5 +209,14 @@ h6 {
     border: 1px solid black;
     padding: 3px;
     margin-bottom: 3px;
-    width: 120px;
+    width: 133px;
+    display: inline-block; /* Agrega esta línea para que el input se muestre en línea */
+}
+
+.outer-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80%; /* Opcional: ajusta la altura si deseas que el contenedor ocupe toda la altura */
 }
