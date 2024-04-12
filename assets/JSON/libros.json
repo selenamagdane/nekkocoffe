@@ -1,150 +1,204 @@
 {
-  "libros": {
-      "romance": [
-          {
-              "titulo": "Orgullo y prejuicio",
-              "autor": "Jane Austen",
-              "año": 1813,
-              "imagen": "https://i.pinimg.com/564x/92/64/a4/9264a4efe574d462d6dccc9f7ae8951e.jpg"
-          },
-          {
-              "titulo": "El amor en tiempos del cólera",
-              "autor": "Gabriel García Márquez",
-              "año": 1985,
-              "imagen": "https://i.pinimg.com/564x/a1/bd/11/a1bd1132a12cfa93002076ee51704e07.jpg"
-          },
-          {
-            "titulo": "Romper el círculo",
-            "autor": "Collen Hoover",
-            "año": 2016,
-            "imagen": "https://i.pinimg.com/564x/dd/be/9c/ddbe9c9c7ec93d1b1829e7564a9b6f96.jpg"
-        }
-      ],
-      "terror": [
-          {
-              "titulo": "El resplandor",
-              "autor": "Stephen King",
-              "año": 1977,
-              "imagen": "https://i.pinimg.com/564x/e8/f5/6b/e8f56b74665eaf8e164a387bee63e2d6.jpg"
-          },
-          {
-              "titulo": "Frankenstein",
-              "autor": "Mary Shelley",
-              "año": 1818,
-              "imagen": "https://i.pinimg.com/736x/98/90/49/9890499c12ecaf40b9c28a23eb23043f.jpg"
+    "libros": {
+        "romance": [
+            {
+                "titulo": "Orgullo y prejuicio",
+                "autor": "Jane Austen",
+                "año": 1813,
+                "imagen": "https://i.pinimg.com/564x/92/64/a4/9264a4efe574d462d6dccc9f7ae8951e.jpg"
+            },
+            {
+                "titulo": "El amor en tiempos del cólera",
+                "autor": "Gabriel García Márquez",
+                "año": 1985,
+                "imagen": "https://i.pinimg.com/564x/a1/bd/11/a1bd1132a12cfa93002076ee51704e07.jpg"
+            },
+            {
+              "titulo": "Romper el círculo",
+              "autor": "Collen Hoover",
+              "año": 2016,
+              "imagen": "https://i.pinimg.com/564x/dd/be/9c/ddbe9c9c7ec93d1b1829e7564a9b6f96.jpg"
           }
-      ],
-      "aventura": [
-          {
-              "titulo": "La isla del tesoro",
-              "autor": "Robert Louis Stevenson",
-              "año": 1883,
-              "imagen": "https://i.pinimg.com/564x/12/d0/5a/12d05a9dca253e5c53bd4069eb991a41.jpg"
-          },
-          {
-              "titulo": "Las minas del rey Salomón",
-              "autor": "H. Rider Haggard",
-              "año": 1885,
-              "imagen": "https://i.pinimg.com/564x/12/d0/5a/12d05a9dca253e5c53bd4069eb991a41.jpg"
+        ],
+        "terror": [
+            {
+                "titulo": "El resplandor",
+                "autor": "Stephen King",
+                "año": 1977,
+                "imagen": "https://i.pinimg.com/564x/e8/f5/6b/e8f56b74665eaf8e164a387bee63e2d6.jpg"
+            },
+            {
+                "titulo": "El jardín de las mariposas",
+                "autor": "Dot Hutchison",
+                "año": 2016,
+                "imagen": "https://i.pinimg.com/736x/98/90/49/9890499c12ecaf40b9c28a23eb23043f.jpg"
+            },
+            {
+              "titulo": "El baile de los muertos",
+              "autor": "Care Santos",
+              "año": 2021,
+              "imagen": "https://images.hola.com/images/026e-1385b8cd6d58-6414e757ebc2-1000/vertical-1150/el-baile-de-los-muertos-de-care-santos-cross-books-.jpg"
           }
-      ],
-      "fantasia": [
-          {
-              "titulo": "El Señor de los Anillos",
-              "autor": "J.R.R. Tolkien",
-              "año": 1954,
-              "imagen": "https://i.pinimg.com/564x/3c/a4/01/3ca40103c5d9055e169ee7d81717dc5f.jpg"
-          },
-          {
-              "titulo": "Las Crónicas de Narnia",
-              "autor": "C.S. Lewis",
-              "año": 1950,
-              "imagen": "https://i.pinimg.com/564x/3c/a4/01/3ca40103c5d9055e169ee7d81717dc5f.jpg"
+        ],
+        "aventura": [
+            {
+                "titulo": "La isla del tesoro",
+                "autor": "Robert Louis Stevenson",
+                "año": 1883,
+                "imagen": "https://i.pinimg.com/564x/12/d0/5a/12d05a9dca253e5c53bd4069eb991a41.jpg"
+            },
+            {
+                "titulo": "El último mohicano",
+                "autor": "James Fenimore Cooper",
+                "año": 1826,
+                "imagen": "https://i.pinimg.com/564x/39/c1/44/39c1449367f4c04df97db416ad91d695.jpg"
+            },
+            {
+              "titulo": "Veinte mil leguas de viaje submarino",
+              "autor": "Julio Verne",
+              "año": 1870,
+              "imagen": "https://i.pinimg.com/564x/43/73/7e/43737e73260bb1bafc77c61a5775e3d3.jpg"
           }
-      ],
-      "deporte": [
-          {
-              "titulo": "Viernes o los limbos del Pacífico",
-              "autor": "Michel Tournier",
-              "año": 1967,
-              "imagen": "https://i.pinimg.com/564x/73/bb/1f/73bb1fb699d8bebcf0edf9b91207f7e6.jpg"
-          },
-          {
-              "titulo": "Fiebre en las gradas",
-              "autor": "Nick Hornby",
-              "año": 1992,
-              "imagen": "https://i.pinimg.com/564x/73/bb/1f/73bb1fb699d8bebcf0edf9b91207f7e6.jpg"
+        ],
+        "fantasia": [
+            {
+                "titulo": "Donde los arboles cantan",
+                "autor": "Laura Gallego García",
+                "año": 2011,
+                "imagen": "https://i.pinimg.com/564x/3c/a4/01/3ca40103c5d9055e169ee7d81717dc5f.jpg"
+            },
+            {
+                "titulo": "Las Crónicas de Narnia",
+                "autor": "C.S. Lewis",
+                "año": 1950,
+                "imagen": "https://i.pinimg.com/564x/f2/9c/9d/f29c9d42854c87b11a66667af19bc422.jpg"
+            },
+            {
+              "titulo": "La hija de la diosa de la luna",
+              "autor": " Sue Lynn Tan",
+              "año":2022,
+              "imagen": "https://i.pinimg.com/564x/45/ca/1b/45ca1ba4e7fcb9116ac562fdb48e5af3.jpg"
           }
-      ],
-      "drama": [
-          {
-              "titulo": "Madame Bovary",
-              "autor": "Gustave Flaubert",
-              "año": 1856,
-              "imagen": "https://i.pinimg.com/564x/2d/be/a0/2dbea053b9883751308de22e7455f525.jpg"
-          },
-          {
-              "titulo": "Ana Karenina",
-              "autor": "León Tolstói",
-              "año": 1877,
-              "imagen": "https://i.pinimg.com/564x/2d/be/a0/2dbea053b9883751308de22e7455f525.jpg"
+        ],
+        "deporte": [
+            {
+                "titulo": "Mujeres en el deporte",
+                "autor": "Rachel Ignotofsky",
+                "año": 2018,
+                "imagen": "https://i.pinimg.com/564x/73/bb/1f/73bb1fb699d8bebcf0edf9b91207f7e6.jpg"
+            },
+            {
+                "titulo": "Fiebre en las gradas",
+                "autor": "Nick Hornby",
+                "año": 1992,
+                "imagen": "https://i.pinimg.com/564x/c9/a3/02/c9a302fc33dcd58ce6b1d30f416f6bf1.jpg"
+            },
+            {
+              "titulo": "La Mente Del Deportista ",
+              "autor": "Lesley Paterson",
+              "año":  2019,
+              "imagen": "https://i.pinimg.com/564x/c1/86/87/c186877e8f36a7e3991af03c942a5801.jpg"
           }
-      ],
-      "comedia": [
-          {
-              "titulo": "Don Quijote de la Mancha",
-              "autor": "Miguel de Cervantes",
-              "año": 1605,
-              "imagen": "https://i.pinimg.com/564x/2b/02/a5/2b02a59c04e341171e4493e7fb293df5.jpg"
-          },
-          {
-              "titulo": "Las preciosas ridículas",
-              "autor": "Molière",
-              "año": 1659,
-              "imagen": "https://i.pinimg.com/564x/2b/02/a5/2b02a59c04e341171e4493e7fb293df5.jpg"
+        ],
+        "drama": [
+            {
+                "titulo": "Alas de hierro",
+                "autor": "Rebecca Yarros",
+                "año": 2024,
+                "imagen": "https://i.pinimg.com/564x/2d/be/a0/2dbea053b9883751308de22e7455f525.jpg"
+            },
+            {
+                "titulo": "Ana Karenina",
+                "autor": "León Tolstói",
+                "año": 1877,
+                "imagen": "https://i.pinimg.com/564x/31/0d/ae/310daec1a9bf20c5184bb18e35aa0ecb.jpg"
+            },
+            {
+              "titulo": "La dependienta",
+              "autor": "Sayaka Murata",
+              "año": 2016,
+              "imagen": "https://i.pinimg.com/564x/36/f7/0f/36f70f4ae4e4e0095ddb13ce046800cc.jpg"
           }
-      ],
-      "historico": [
-          {
-              "titulo": "Los pilares de la Tierra",
-              "autor": "Ken Follett",
-              "año": 1989,
-              "imagen": "https://i.pinimg.com/564x/12/57/a9/1257a92b6ace347dfd0cc965badd9779.jpg"
-          },
-          {
-              "titulo": "Yo, Claudio",
-              "autor": "Robert Graves",
-              "año": 1934,
-              "imagen": "https://i.pinimg.com/564x/12/57/a9/1257a92b6ace347dfd0cc965badd9779.jpg"
+        ],
+        "comedia": [
+            {
+                "titulo": "Cariño cuanto te odio ",
+                "autor": "Sally Thorne",
+                "año": 2017,
+                "imagen": "https://i.pinimg.com/564x/2b/02/a5/2b02a59c04e341171e4493e7fb293df5.jpg"
+            },
+            {
+                "titulo": "Las preciosas ridículas",
+                "autor": "Molière",
+                "año": 1659,
+                "imagen": "https://i.pinimg.com/564x/b3/96/51/b39651f92b5cbf03a3a2c1c01ca3e42a.jpg"
+            },
+            {
+              "titulo": "El Club de Los Mentirosos",
+              "autor": "Mary Kar",
+              "año": 1995,
+              "imagen": "https://i.pinimg.com/564x/b0/57/4d/b0574dee73c12e06edb66fad43d081e6.jpg"
           }
-      ],
-      "acción": [
-          {
-              "titulo": "El código Da Vinci",
-              "autor": "Dan Brown",
-              "año": 2003,
-              "imagen": "https://i.pinimg.com/564x/e1/7a/d8/e17ad8f265b0666cd1055e4bd5f2686e.jpg"
-          },
-          {
-              "titulo": "El nombre del viento",
-              "autor": "Patrick Rothfuss",
-              "año": 2007,
-              "imagen": "https://i.pinimg.com/564x/e1/7a/d8/e17ad8f265b0666cd1055e4bd5f2686e.jpg"
+        ],
+        "historico": [
+            {
+                "titulo": "La gran historia del feminismo",
+                "autor": "Séverine Auffret",
+                "año":  2020,
+                "imagen": "https://i.pinimg.com/564x/12/57/a9/1257a92b6ace347dfd0cc965badd9779.jpg"
+            },
+            {
+                "titulo": "El taller de libros prohibidos",
+                "autor": "Olalla García ",
+                "año":  2010,
+                "imagen": "https://i.pinimg.com/564x/59/8e/25/598e2539ba0b2b8c7d7adb3c0d5f4133.jpg"
+            },
+            {
+              "titulo": "El libro de los crímenes",
+              "autor": "Santiago Castellanos",
+              "año":2021,
+              "imagen": "https://i.pinimg.com/564x/e0/da/b3/e0dab33f8ac3914a05e37de565bc2781.jpg"
           }
-      ],
-      "ciencia ficcion": [
-          {
-              "titulo": "1984",
-              "autor": "George Orwell",
-              "año": 1949,
-              "imagen": "https://i.pinimg.com/564x/ab/2f/c4/ab2fc4e3912389d4f7681c87fa1b8bf0.jpg"
-          },
-          {
-              "titulo": "Fundación",
-              "autor": "Isaac Asimov",
-              "año": 1951,
-              "imagen": "https://i.pinimg.com/564x/ab/2f/c4/ab2fc4e3912389d4f7681c87fa1b8bf0.jpg"
+        ],
+        "acción": [
+            {
+                "titulo": "La quinta ola",
+                "autor": " Rick Yancey",
+                "año": 2013,
+                "imagen": "https://i.pinimg.com/564x/e1/7a/d8/e17ad8f265b0666cd1055e4bd5f2686e.jpg"
+            },
+            {
+                "titulo": "De sangre y cenizas",
+                "autor": "Jennifer L. Armentrout",
+                "año": 2021,
+                "imagen": "https://i.pinimg.com/564x/7f/79/48/7f79488bd3cdc0fb5ab6c397ead44a45.jpg"
+            },
+            {
+              "titulo": "El día que se perdió la cordura",
+              "autor": " Javier Castillo",
+              "año": 2014,
+              "imagen": "https://i.pinimg.com/564x/bd/3d/3b/bd3d3bfc56f0f49ba08c74468153cd67.jpg"
           }
-      ]
+        ],
+        "ciencia ficcion": [
+            {
+                "titulo": "Asesino de Brujas",
+                "autor": " Shelby Mahurin ",
+                "año": 2019,
+                "imagen": "https://i.pinimg.com/564x/ab/2f/c4/ab2fc4e3912389d4f7681c87fa1b8bf0.jpg"
+            },
+            {
+                "titulo": "El manuscrito nazi",
+                "autor": "Juan Martorell",
+                "año": 2017,
+                "imagen": "https://i.pinimg.com/564x/a9/7b/ba/a97bbaa415cebce6f437a2167ac3fac0.jpg"
+            },
+            {
+              "titulo": "La casa de los secretos",
+              "autor": "Maria de Lourdes Victoria ",
+              "año": 2016,
+              "imagen": "https://i.pinimg.com/564x/ea/17/be/ea17be9dcfe51f91cbbfd56e213da9c2.jpg"
+          }
+        ]
+    }
   }
-}
