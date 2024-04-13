@@ -109,7 +109,7 @@ body{
 }
 
 
-.input {
+.input-nombres {
     background-color: #af936d;
     border: #af936d;
     width: 310px;
@@ -118,7 +118,16 @@ body{
     color: white;
 }
 
-.input1 {
+.input-apellidos {
+    background-color: #af936d;
+    border: #af936d;
+    width: 310px;
+    height: 45px;
+    border-radius: 20px;
+    color: white;
+}
+
+.input-dni {
     background-color: #af936d;
     border: #af936d;
     width: 180px;
@@ -127,7 +136,7 @@ body{
     color: white;
 }
 
-.input2 {
+.input-hora {
     background-color: #af936d;
     border: #af936d;
     width: 112px;
