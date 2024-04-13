@@ -2,8 +2,8 @@
 
 body{
     font-family: Concert One;
-    background-image:url(/assets/img/fondo.png);
-    background-size: cover;
+        background-image: url(../img/fondo.png);
+        background-size: cover;
     color: white;
 }
 

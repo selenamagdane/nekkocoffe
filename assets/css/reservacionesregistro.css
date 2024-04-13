@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
 
+body{
+    background-image: url(../img/fondo.png);
+    background-size: cover;
+
+}
 .navbar {
     font-family: Concert One;
     color: white;
